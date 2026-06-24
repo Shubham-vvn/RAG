@@ -1,0 +1,40 @@
+# ── Environment & Secrets ──
+.env
+
+# ── Dataset Cache ──
+data/*.parquet
+data/*.csv
+!data/.gitkeep
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ── Virtual Environment ──
+venv/
+.venv/
+env/
+
+# ── Testing ──
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── Type Checking ──
+.mypy_cache/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ── Distribution ──
+dist/
+build/
+*.egg-info/
