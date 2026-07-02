@@ -1,0 +1,9 @@
+# Ignore DS_Store
+.DS_Store
+
+# Ignore other local projects (only RAG Project is tracked)
+0. login page dummy /
+01. Zomato Project/
+02. Zomato project /
+03. Zomato Project/
+04. House Rental Project /
